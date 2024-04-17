@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Translation Service</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        header, footer { background: #f0f0f0; padding: 10px 20px; text-align: center; }
+        section { margin-bottom: 20px; }
+        .container { width: 80%; margin: auto; }
+        form { display: flex; flex-direction: column; width: 300px; }
+        label { margin-bottom: 5px; }
+        input, textarea { margin-bottom: 10px; padding: 8px; }
+        button { padding: 10px 15px; background-color: #007BFF; color: white; border: none; cursor: pointer; }
+        button:hover { background-color: #0056b3; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Medical Translation Services</h1>
+        <p>Professional Mandarin-English Medical Translation</p>
+    </header>
+
+    <section class="container">
+        <h2>About Our Service</h2>
+        <p>Our medical translation service provides professional and accurate translation between Mandarin and English, specializing in medical documents, patient information, and clinical research materials.</p>
+    </section>
+
+    <section class="container">
+        <h2>Contact Us</h2>
+        <form action="your-server-endpoint" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Medical Translation Services. All rights reserved.</p>
+    </footer>
+</body>
+</html>
